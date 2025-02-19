@@ -1,0 +1,11 @@
+h3 span {
+    color: inherit;
+}
+
+h3 span.red {
+    color: red;
+}
+
+h3 span.blue {
+    color: blue;
+}
