@@ -15,4 +15,4 @@ Une fois le travail terminé, vous compléterez le compte-rendu d'intervention c
 
 ## Compte-rendu de l'intervention
 
-...TODO...
+J'ai corrigé les erreurs pour pouvoir accéder aux liens.
