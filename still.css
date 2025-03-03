@@ -9,3 +9,7 @@ h3 span.red {
 h3 span.blue {
     color: blue;
 }
+
+h1 span.orange {
+    color: rgb(190, 126, 7)
+}

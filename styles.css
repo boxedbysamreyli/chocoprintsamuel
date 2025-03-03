@@ -1,0 +1,73 @@
+/* Style du formulaire */
+.main_form {
+    width: 60%;
+    margin: 100px auto 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #333;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000; /* Pour qu'il reste au-dessus */
+}
+
+/* Disposition en flexbox */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Colonnes */
+.col-md-6, .col-md-12 {
+    width: 100%;
+}
+
+/* Champs de texte */
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #b17505;
+}
+
+/* Zone de texte */
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* Bouton stylisé */
+.send_btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #b17505;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.send_btn:hover {
+    background: #b17505;
+    transform: scale(1.05);
+}
